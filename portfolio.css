@@ -1,0 +1,267 @@
+*{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+
+header{
+    padding:20px 25px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav  img{
+    height: 200px;
+    
+}
+
+nav ul li{
+margin-left:25px;
+
+
+}
+
+nav  ul{
+    list-style: none;
+    display: flex;
+   font-size: 20px;
+   float: right;
+   margin-top: 110px;
+   margin-right: 100px;
+   
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+} 
+
+#Hlo {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+
+}
+
+
+#h{
+    width: 100px;
+}
+
+
+#ira{
+    width: 250px;
+
+
+}
+#img{
+    display: flex;
+    justify-content: right;
+    border-radius: 100%;
+    height: 310px;
+    width: 290px;
+    float: right;
+    
+    
+    
+}
+
+
+
+#foot{
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    color: white;
+    margin-top:100px ;
+    justify-content: center;
+}
+
+.profile{
+    width: 350px;
+    height: 360px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:blueviolet  ;
+}
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+#football{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    float: left;
+    
+    
+}
+
+#football img{
+    width: 250px;
+    height: 200px;
+    align-items: first baseline;
+    border-radius: 20px;
+}
+
+#bmain{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#journey{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#journey img{
+    width: 250px;
+    height: 200px;
+    align-items: first baseline;
+    border-radius: 20px;
+
+}
+
+#teamwork{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+}
+
+#teamwork img{
+    width: 250px;
+    height: 200px;
+    align-items: first baseline;
+    border-radius: 20px;
+
+}
+
+#football span{
+    background-color: white;
+    color: black;
+}
+
+#journey span{
+    background-color: white;
+    color: black;
+}
+
+#teamwork span{
+    background-color: white;
+    color: black;
+}
+
+#bmain h2{
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#maindiv{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(78, 77, 77);
+    border-radius: 20%;
+    
+}
+
+#maindiv button{
+    background-color: blueviolet;
+    width: 100px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#email{
+    font-size: large;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(180, 178, 178);
+}
+
+#name{
+    font-size: large;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(180, 178, 178);
+}
+
+#mainn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+#contacts a img{
+    height: 50px;
+    
+    
+}
+
+#contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+#dc{
+    border-radius: 30px;
+}
+
+#ig{
+    
+    border-radius: 30px;
+}
+
+#tik{
+    border-radius: 30px;
+}
+
+#fb{
+    border-radius: 30px;
+}
+
